@@ -19,3 +19,21 @@ print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp ab
  
 ![alt text](https://github.com/engineerbaz/Certified-Python-Saylani-/blob/master/assignments/a1.PNG "Q 1")
 
+<hr>
+
+### 2. Write a Python program to get the Python version you are using.
+
+```python
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
+```
+#### OUTPUT :
+
+>Python version
+3.6.8 (default, Oct  7 2019, 12:59:55) 
+[GCC 8.3.0]
+Version info.
+sys.version_info(major=3, minor=6, micro=8, releaselevel='final', serial=0)
